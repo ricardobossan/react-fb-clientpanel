@@ -25,7 +25,7 @@ class Clients extends Component {
     if (clients) {
       return (
         // my style property
-        <div style={{ 'text-align': 'left' }}>
+        <div style={{ textAlign: 'left' }}>
           <div className="row">
             <div className="col-md-6">
               <h2>
