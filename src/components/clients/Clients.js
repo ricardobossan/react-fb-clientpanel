@@ -47,7 +47,6 @@ class Clients extends Component {
                 <span className="text-primary">
                   ${parseFloat(totalOwed).toFixed(2)}
                 </span>{' '}
-                />
               </h5>
             </div>
           </div>
