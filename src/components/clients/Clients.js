@@ -27,7 +27,6 @@ class Clients extends Component {
   render() {
     const { totalOwed } = this.state;
 
-    console.log(this.props);
     const { clients } = this.props;
 
     if (clients) {
