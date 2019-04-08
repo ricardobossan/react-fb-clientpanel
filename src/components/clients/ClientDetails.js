@@ -71,7 +71,7 @@ class ClientDetails extends Component {
 
     if (client) {
       return (
-        <div style={{ textAlign: 'left' }}>
+        <div>
           <div className="row">
             <div className="col-md-6">
               <Link className="btn btn-link" to="/">

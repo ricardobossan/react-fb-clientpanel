@@ -46,7 +46,7 @@ class EditClient extends Component {
     if (client) {
       return (
         <div>
-          <div style={{ textAlign: 'left' }} className="row">
+          <div className="row">
             <div className="col-md-6">
               <Link to="/" className="btn btn-link">
                 <i className="fas fa-arrow-circle-left" /> Back To Dashboard

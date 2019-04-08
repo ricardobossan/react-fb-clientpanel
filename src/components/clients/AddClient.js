@@ -34,14 +34,14 @@ class AddClient extends Component {
   render() {
     return (
       <div>
-        <div style={{ textAlign: 'left' }} className="row">
+        <div className="row">
           <div className="col-md-6">
             <Link to="/" className="btn btn-link">
               <i className="fas fa-arrow-circle-left" /> Back To Dashboard
             </Link>
           </div>
         </div>
-        <div style={{ textAlign: 'left' }} className="card">
+        <div className="card">
           <div className="card-header">Add Client</div>
           <div className="card-body">
             <form onSubmit={this.onSubmit}>

@@ -32,7 +32,7 @@ class Clients extends Component {
     if (clients) {
       return (
         // my style property
-        <div style={{ textAlign: 'left' }}>
+        <div>
           <div className="row">
             <div className="col-md-6">
               <h2>
