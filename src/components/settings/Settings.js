@@ -49,7 +49,7 @@ class Settings extends Component {
                 <input
                   type="checkbox"
                   name="allowRegistration"
-                  checked={!!allowRegistration}
+                  checked={allowRegistration}
                   onChange={this.allowRegistrationChange}
                 />
               </div>
@@ -58,7 +58,7 @@ class Settings extends Component {
                 <input
                   type="checkbox"
                   name="disableBalanceOnAdd"
-                  checked={!!disableBalanceOnAdd}
+                  checked={disableBalanceOnAdd}
                   onChange={this.disableBalanceOnAddChange}
                 />
               </div>
@@ -67,7 +67,7 @@ class Settings extends Component {
                 <input
                   type="checkbox"
                   name="disableBalanceOnEdit"
-                  checked={!!disableBalanceOnEdit}
+                  checked={disableBalanceOnEdit}
                   onChange={this.disableBalanceOnEditChange}
                 />
               </div>
